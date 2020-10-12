@@ -2,7 +2,7 @@
 	
 	var timeline = [];
 	var no_trials = 3;
-	var repo_site = "https://simonhanzal.github.io/RT/";
+	var repo_site = "https://simonhanzal.github.io/prototype/";
 
     /* WELCOME */
     
