@@ -106,7 +106,7 @@
 		var no_go_rt = Math.round(correct_relevant.select('rt').mean());
 		var sd1 = trial_data_array.map(fc);
 
-		/* function fc(value) {
+		 function fc(value) {
 		const mean = true_rt
 		return (value - true_rt) ** 2;
 		}
@@ -114,7 +114,7 @@
 		var sd3 = sd2/sd1.length;
 		var sd4 = Math.sqrt(sd3);
 		var deviation = Math.round(sd4*100)/100;
-		*/
+		
 			
 			return "<p> The total number of trials was " +trials.count()+".</p>" +
 			"<p>The number of correct go trials was " +correct_go+".</p>" +
@@ -124,7 +124,7 @@
 			"<p>The accuracy was "+accuracy+"%.</p>" +
 			"<p>The mean trial speed was "+true_rt+"ms.</p>"+
 			"<p>The reaction time range was between "+minimum+"ms and "+maximum+"ms.</p>"+
-			//"<p>The standard deviation was "+deviation+"ms.</p>"+//
+			"<p>The standard deviation was "+deviation+"ms.</p>"+
 			"<p>DEBUG INFORMATION:</p>"+
 			"<p>These are the individual trial RT results: "+trial_data_array+" (ms).</p>"+
 			"<p>These are the individual trial RT results in word form: "+trial_data_word+" (ms).</p>"+
