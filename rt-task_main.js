@@ -2,7 +2,7 @@
 	/* METADATA */
 	
 	var timeline = [];
-	var no_trials = 3;
+	var no_trials = 1;
 	var repo_site = "https://simonhanzal.github.io/prototype/";
 
     /* WELCOME */
