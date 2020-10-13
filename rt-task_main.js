@@ -23,7 +23,7 @@
           "<p>If it is any other number between <strong>0-2</strong> or <strong>4-9</strong>, press the Space Bar " +
           "as fast as you can.</p>" +
 	  "<p></p>" +
-	  "<p>Make sure the experiment is open in an active window, displayed in the center, your keyboard is connected to "
+	  "<p>Make sure the experiment is open in an active window, displayed in the center, your keyboard is connected to "+
 	  "the computer and that there are no distractions around you.</p>" +
 	  "<p></p>" +	
           "<p>Press any key to begin.</p>",
