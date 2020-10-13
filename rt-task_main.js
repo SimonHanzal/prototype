@@ -9,7 +9,7 @@
     
 	var welcome = {
       type: "html-keyboard-response",
-      stimulus: "Welcome to the prototype experiment. Press any key to begin."
+      stimulus: "Welcome to the prototype experiment. Please wait a few seconds and then press any key to begin."
     };
     timeline.push(welcome);
 
@@ -20,7 +20,7 @@
       stimulus: "<p>In this experiment, a number will appear in the center " +
           "of the screen.</p><p>If the number is <strong>3</strong>, " +
           "do not press anything.</p>" +
-          "<p>If it is any other number between <strong>1-9</strong>, press the Space Bar " +
+          "<p>If it is any other number between <strong>0-2</strong> or <strong>4-9</strong>, press the Space Bar " +
           "as fast as you can.</p>" +
           "<p>Press any key to begin.</p>",
       post_trial_gap: 2000
@@ -125,16 +125,18 @@
 			"<p>The mean trial speed was "+true_rt+"ms.</p>"+
 			"<p>The reaction time range was between "+minimum+"ms and "+maximum+"ms.</p>"+
 			"<p>The standard deviation was "+deviation+"ms.</p>"+
+			"<p></p>"+
+			"<p>PRESS ANY KEY TO CONTINUE!</p>"+
+			"<p></p>"+
 			"<p>DEBUG INFORMATION:</p>"+
+			"<p></p>"+
 			"<p>These are the individual trial RT results: "+trial_data_array+" (ms).</p>"+
 			"<p>These are the individual trial RT results in word form: "+trial_data_word+" (ms).</p>"+
 			"<p>The mean response time was "+rt+"ms for correct trials including 0ms logged for all no go trials.</p>"+
 			"<p>The number of correct go trials was "+go_trials.count()+".</p>"+
 			"<p>The number of correct trials was "+correct_trials.count()+".</p>"+
 			"<p>Mean logged response time for no go trials: "+no_go_rt+"ms.</p>"+
-			"<p>Number of trials taken for RT calculation: "+correct_go_trials.count()+"ms.</p>" +
-			"<p></p>"+
-			"<p>Press any key to complete the experiment. Thank you!</p>";
+			"<p>Number of trials taken for RT calculation: "+correct_go_trials.count()+"ms.</p>";
 		
 		}
 	};
