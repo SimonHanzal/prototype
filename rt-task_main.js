@@ -120,25 +120,7 @@
 		var deviation = Math.round(sd4*100)/100;
 		
 			
-			return "<p>PRESS ANY KEY TO CONTINUE!</p>"+
-			"<p></p>"+
-			"<p>DEBUG INFORMATION:</p>"+
-			"<p> </p>"+
-			"<p> The total number of trials was " +trials.count()+".</p>" +
-			"<p>The number of correct go trials was " +correct_go+".</p>" +
-			"<p>The number of incorrect go trials was " +incorrect_go+ ".</p>" +
-			"<p>The number of correct no-go trials was " +correct_no_go+ ".</p>" +
-			"<p>The number of incorrect no-go trials was " +incorrect_no_go+ ".</p>" +
-			"<p>The accuracy was "+accuracy+"%.</p>" +
-			"<p>The mean trial speed was "+true_rt+"ms.</p>"+
-			"<p>The reaction time range was between "+minimum+"ms and "+maximum+"ms.</p>"+
-			"<p>The standard deviation was "+deviation+"ms.</p>"+
-			"<p></p>"+
-			"<p>The mean response time was "+rt+"ms for correct trials including 0ms logged for all no go trials.</p>"+
-			"<p>The number of correct go trials was "+go_trials.count()+".</p>"+
-			"<p>The number of correct trials was "+correct_trials.count()+".</p>"+
-			"<p>Mean logged response time for no go trials: "+no_go_rt+"ms.</p>"+
-			"<p>Number of trials taken for RT calculation: "+correct_go_trials.count()+"ms.</p>";
+			return "<p>PRESS ANY KEY TO CONTINUE!</p>";
 		
 		}
 	};
