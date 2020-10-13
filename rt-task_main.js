@@ -134,8 +134,6 @@
 			"<p></p>"+
 			"<p>DEBUG INFORMATION:</p>"+
 			"<p></p>"+
-			"<p>These are the individual trial RT results: "+trial_data_array+" (ms).</p>"+
-			"<p>These are the individual trial RT results in word form: "+trial_data_word+" (ms).</p>"+
 			"<p>The mean response time was "+rt+"ms for correct trials including 0ms logged for all no go trials.</p>"+
 			"<p>The number of correct go trials was "+go_trials.count()+".</p>"+
 			"<p>The number of correct trials was "+correct_trials.count()+".</p>"+
