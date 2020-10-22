@@ -67,7 +67,7 @@
 		if(data.correct == true){
 		  data.type == 1;
 		} else {
-		  data.type == 0;
+		  data.type == 0
 	       }
 	},
     }
