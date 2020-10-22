@@ -19,7 +19,7 @@
       stimulus: "<p>In this experiment, a number will appear in the center " +
           "of the screen.</p><p>If the number is <strong>3</strong>, " +
           "do not press anything.</p>" +
-          "<p>If it is any other number between <strong>0-2</strong> or <strong>4-9</strong>, press the <strong>Space Bar</strong> " +
+          "<p>If it is any other number between <strong>1-2</strong> or <strong>4-9</strong>, press the <strong>Space Bar</strong> " +
           "as fast as you can.</p>" +
 	  "<p></p>" +
 	  "<p>Make sure the experiment is open in an active window, displayed in the center, you are using a computer,</p>"+
