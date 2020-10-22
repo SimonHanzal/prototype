@@ -49,7 +49,7 @@
       type: 'html-keyboard-response',
       stimulus: "<p></p>",//'<div style="font-size:60px;">+</div>',
       choices: jsPsych.NO_KEYS,
-      trial_duration: 50,
+      trial_duration: 15,
       data: {test_part: 'fixation'}
     }
 
@@ -58,7 +58,7 @@
       stimulus: jsPsych.timelineVariable('stimulus'),
       choices: ['f1','Space'],
 	  stimulus_duration: 250,
-	  trial_duration: 1100,
+	  trial_duration: 1135,
 	  response_ends_trial: false,
       data: jsPsych.timelineVariable('data'),
 	  on_finish: function(data){
