@@ -1,7 +1,7 @@
 	/* METADATA */
 	
 	var timeline = [];
-	var no_trials = 2;
+	var no_trials = 1;
 	var repo_site = "https://simonhanzal.github.io/RT/";
 
     /* WELCOME */
@@ -33,15 +33,50 @@
     /* TRIALS */
 	
 	var test_stimuli = [
-      { stimulus: '<div style="font-size:64px;">1</div>', data: { test_part: 'test', correct_response: 'Space' } },
+      	  { stimulus: '<div style="font-size:82px;">1</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:82px;">2</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:82px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
+	  { stimulus: '<div style="font-size:82px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
+      	  { stimulus: '<div style="font-size:82px;">4</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:82px;">5</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:82px;">6</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:82px;">7</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:82px;">8</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:82px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  
+	  { stimulus: '<div style="font-size:32px;">1</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:32px;">2</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:32px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
+	  { stimulus: '<div style="font-size:32px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
+          { stimulus: '<div style="font-size:32px;">4</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:32px;">5</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:32px;">6</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:32px;">7</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:32px;">8</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:32px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  
+	  { stimulus: '<div style="font-size:48px;">1</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:48px;">2</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:48px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
+	  { stimulus: '<div style="font-size:48px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
+          { stimulus: '<div style="font-size:48px;">4</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:48px;">5</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:48px;">6</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:48px;">7</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:48px;">8</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:48px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  
+	  { stimulus: '<div style="font-size:64px;">1</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:64px;">2</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:64px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
-      { stimulus: '<div style="font-size:64px;">4</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:64px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
+          { stimulus: '<div style="font-size:64px;">4</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:64px;">5</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:64px;">6</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:64px;">7</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:64px;">8</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:64px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } }
+    ];
     ];
 
     var fixation = {
