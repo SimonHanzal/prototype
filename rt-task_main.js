@@ -2,6 +2,7 @@
 	
 	var timeline = [];
 	var no_trials = 1;
+	//13 in the actual experiment
 	var repo_site = "https://simonhanzal.github.io/RT/";
 
     /* WELCOME */
