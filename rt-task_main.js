@@ -77,7 +77,6 @@
 	  { stimulus: '<div style="font-size:64px;">8</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:64px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } }
     ];
-    ];
 
     var fixation = {
       type: 'html-keyboard-response',
