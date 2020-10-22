@@ -43,7 +43,6 @@
 	  { stimulus: '<div style="font-size:82px;">7</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:82px;">8</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:82px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  
 	  { stimulus: '<div style="font-size:32px;">1</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:32px;">2</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:32px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
@@ -54,7 +53,6 @@
 	  { stimulus: '<div style="font-size:32px;">7</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:32px;">8</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:32px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  
 	  { stimulus: '<div style="font-size:48px;">1</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:48px;">2</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:48px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
@@ -64,8 +62,7 @@
 	  { stimulus: '<div style="font-size:48px;">6</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:48px;">7</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:48px;">8</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  { stimulus: '<div style="font-size:48px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  
+	  { stimulus: '<div style="font-size:48px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } }, 
 	  { stimulus: '<div style="font-size:64px;">1</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:64px;">2</div>', data: { test_part: 'test', correct_response: 'Space' } },
 	  { stimulus: '<div style="font-size:64px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
@@ -82,7 +79,7 @@
       type: 'html-keyboard-response',
       stimulus: "<p></p>",//'<div style="font-size:60px;">+</div>',
       choices: jsPsych.NO_KEYS,
-      trial_duration: 50,
+      trial_duration: 15,
       data: {test_part: 'fixation'}
     }
 
@@ -91,7 +88,7 @@
       stimulus: jsPsych.timelineVariable('stimulus'),
       choices: ['f1','Space'],
 	  stimulus_duration: 250,
-	  trial_duration: 1100,
+	  trial_duration: 1135,
 	  response_ends_trial: false,
       data: jsPsych.timelineVariable('data'),
 	  on_finish: function(data){
