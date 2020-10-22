@@ -2,7 +2,7 @@
 	/* METADATA */
 	
 	var timeline = [];
-	var no_trials = 54;
+	var no_trials = 4;
 	var repo_site = "https://simonhanzal.github.io/prototype/";
 
     /* WELCOME */
@@ -64,6 +64,11 @@
 	  on_finish: function(data){
 		data.correct = data.key_press == jsPsych.pluginAPI.convertKeyCharacterToKeyCode(data.correct_response);
 		data.three = data.stimulus == '<div style="font-size:60px;">3</div>';
+		if(data.correct == true){
+		  data.type == 1;
+		} else {
+		  data.type == 0;
+	       }
 	},
     }
 
@@ -104,6 +109,9 @@
 		var trial_data3 = trial_data2.split(",");
 		var trial_data_array = trial_data3.slice(1);
 		var trial_data_word = trial_data_array.join(";");
+		    
+		var trial_value1 = Object.entries(trials.select('type'));
+		var trial_value2 = trial_value1.join(";");
 		
 		var rt = Math.round(correct_trials.select('rt').mean());
 		var true_rt = Math.round(correct_go_trials.select('rt').mean()*100)/100;
@@ -120,7 +128,7 @@
 		var deviation = Math.round(sd4*100)/100;
 		
 			
-			return "<p>PRESS ANY KEY TO CONTINUE!</p>";
+			return "<p>PRESS ANY KEY TO "+ trial_value2 +"CONTINUE!</p>";
 		
 		}
 	};
