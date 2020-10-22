@@ -33,15 +33,15 @@
     /* TRIALS */
 	
 	var test_stimuli = [
-      { stimulus: '<div style="font-size:60px;">1</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  { stimulus: '<div style="font-size:60px;">2</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  { stimulus: '<div style="font-size:60px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
-      { stimulus: '<div style="font-size:60px;">4</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  { stimulus: '<div style="font-size:60px;">5</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  { stimulus: '<div style="font-size:60px;">6</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  { stimulus: '<div style="font-size:60px;">7</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  { stimulus: '<div style="font-size:60px;">8</div>', data: { test_part: 'test', correct_response: 'Space' } },
-	  { stimulus: '<div style="font-size:60px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } }
+      { stimulus: '<div style="font-size:64px;">1</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:64px;">2</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:64px;">3</div>', data: { test_part: 'test', correct_response: 'None' } },
+      { stimulus: '<div style="font-size:64px;">4</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:64px;">5</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:64px;">6</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:64px;">7</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:64px;">8</div>', data: { test_part: 'test', correct_response: 'Space' } },
+	  { stimulus: '<div style="font-size:64px;">9</div>', data: { test_part: 'test', correct_response: 'Space' } }
     ];
 
     var fixation = {
