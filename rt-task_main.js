@@ -104,7 +104,7 @@
 		  data.go = 3;
 		} else {
 		  data.go = 2;
-	       }
+	       } 
 	},
     }
 
