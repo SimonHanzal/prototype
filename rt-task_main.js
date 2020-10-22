@@ -130,7 +130,7 @@
 		var correct_go_trials = correct_trials.filter({three: false});
 
 		var correct_no_go = correct_relevant.count();
-		var incorrect_no_go = no_trials - correct_relevant.count();
+		var incorrect_no_go = no_trials * 4 - correct_relevant.count();
 		var correct_go = correct_trials.count() - correct_no_go;
 		var incorrect_go = no_trials * 32 - correct_go;
 		
