@@ -132,7 +132,7 @@
 		var correct_no_go = correct_relevant.count();
 		var incorrect_no_go = no_trials - correct_relevant.count();
 		var correct_go = correct_trials.count() - correct_no_go;
-		var incorrect_go = no_trials * 8 - correct_go;
+		var incorrect_go = no_trials * 32 - correct_go;
 		
 		/* ANALYTIC CALCULATIONS */
 		
