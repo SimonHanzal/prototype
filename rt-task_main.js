@@ -138,7 +138,7 @@
 
 		function fc(value) {
 		const mean = true_rt
-		return (value - true_rt) ** 2;
+		return Math.pow((value - true_rt), 2);
 		}
 		
 		var sd2 = sd1.reduce((a,b) => a + b, 0);
