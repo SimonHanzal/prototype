@@ -185,7 +185,11 @@
 		var sd4 = Math.sqrt(sd3);
 		var deviation = Math.round(sd4*100)/100;
 			
-			return "<p>Press any key to complete the experimental part. Thank you!</p>";
+					return "<p>Congratulations, you have finished the trial session!</p>"+
+					"<p>You can check if you got the expected responses:</p>"+
+					"<p> Your accuracy was "+accuracy_1+"%.</p>"+
+					"<p>You missed "+incorrect_go_1+" of the numbers (1, 2, 4, 5, 6, 7, 8, 9) and incorrectly reacted  "+incorrect_no_go_1+"x  to number 3.</p>"+
+					"<p>Now, press any key to continue to the recorded part of the experiment.</p>";
 		
 		}
 	};
